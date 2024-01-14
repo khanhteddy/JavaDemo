@@ -1,0 +1,19 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5433/study"
+    database: "study"
+    user: "postgres"
+    password: "Newpassword"
+#    driverClassName: "com.mysql.cj.jdbc.Driver"
+  jpa:
+    hibernate:
+      ddl-auto: "update"
+
+
+
+upload-config:
+  max-file-size: "2Mb"
+  max-upload-times: 2
